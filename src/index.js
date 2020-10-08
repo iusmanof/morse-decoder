@@ -49,7 +49,7 @@ function decode(expr) {
 
   
   let word = convertSignalToLetter(r);
-  console.log(word);
+  return word;
 }
   
  function convertNumberToSignal(code){
